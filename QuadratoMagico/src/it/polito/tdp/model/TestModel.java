@@ -7,8 +7,15 @@ public class TestModel {
 	public static void main(String[] args) {
 
 		Model model = new Model();
-		List<Quadrato> quadrati = model.findMagicSquare(3);
+		int temp=3;
+		List<Quadrato> quadrati = model.findMagicSquare(temp);
 
+		for(Quadrato q: quadrati)
+		  System.out.println(q);
+		
+	
+		
+		
 	}
 
 }
